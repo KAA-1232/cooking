@@ -29,7 +29,7 @@ h1{
     display: flex;
     list-style: none;
 }
-.nav ul li {
+.nav ul li:not(:first-child) {
     margin-right: 9%;
 }
 
